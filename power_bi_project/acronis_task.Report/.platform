@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "acronis_task"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d5588595-823c-4723-b001-48040b47c595"
+  }
+}
