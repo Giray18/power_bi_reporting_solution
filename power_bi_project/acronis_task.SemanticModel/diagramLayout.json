@@ -24,7 +24,7 @@
         {
           "location": {
             "x": 0,
-            "y": 311.30676385801775
+            "y": 362.88055460848545
           },
           "nodeIndex": "Case Info",
           "nodeLineageTag": "3c07eb54-366e-4506-a797-5d21093116e8",
@@ -59,19 +59,6 @@
             "width": 234
           },
           "zIndex": 7
-        },
-        {
-          "location": {
-            "x": 908.11273533363931,
-            "y": 137.58657371861852
-          },
-          "nodeIndex": "Measure Table",
-          "nodeLineageTag": "3453d742-f75f-4035-b551-81dbc223b8f7",
-          "size": {
-            "height": 104,
-            "width": 234
-          },
-          "zIndex": 3
         },
         {
           "location": {
@@ -139,6 +126,30 @@
           },
           "zIndex": 0,
           "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 1196.1645451709157,
+            "y": 262.18674118522608
+          },
+          "nodeIndex": "Measure Table Case Details Report",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 908.11273533363931,
+            "y": 137.58657371861852
+          },
+          "nodeIndex": "Measure Table Team Activities Report",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",
