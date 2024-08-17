@@ -1,0 +1,56 @@
+{
+  "name": "Custom",
+  "textClasses": {
+    "callout": {
+      "color": "#04065E"
+    },
+    "title": {
+      "color": "#02025B"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#031988"
+              }
+            },
+            "show": true,
+            "radius": 15
+          }
+        ],
+        "visualTooltip": [
+          {
+            "titleFontColor": {
+              "solid": {
+                "color": "#070160"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "titleFontColor": {
+              "solid": {
+                "color": "#070160"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
