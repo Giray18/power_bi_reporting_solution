@@ -2407,6 +2407,18 @@
           }
         ],
         "lineageTag": "1da84a54-14e3-465c-aab6-22bc18e3312e",
+        "measures": [
+          {
+            "name": "Case Details",
+            "expression": [
+              "",
+              "VAR _CaseIds = VALUES('Case Info'[case id])",
+              "RETURN",
+              "    NATURALINNERJOIN(_CaseIds,'Call Info')"
+            ],
+            "lineageTag": "06e12506-9dda-4bf1-b617-1579e55271f4"
+          }
+        ],
         "partitions": [
           {
             "name": "Measure Table Case Details Report",
