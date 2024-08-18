@@ -25,7 +25,9 @@ Second solution`s output files can be found on https://github.com/Giray18/power_
 As per task requirements there is a pivot table creation task based on source data. Since I created my source files on SSMS database, I used Excel native SSMS connector to gather data into excel. After ingestion applied pivot table steps to gather solution`s required data which can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/excel_task .
 
 ## Power BI Task Solution;
-2 reports created based on requirements defined on PowerBI section of the task document. <br>
+3 reports created based on requirements defined on PowerBI section of the task document. <br>
+
+**Info page:** Gives brief info about reports and their visuals to users.
 
 **On first report:** Named as Team Activities; Visualitions created to reflect below inquiries answers.
 Weekday Slicer and Percent % Slicer bringing required data into tree map visuals.
@@ -35,7 +37,7 @@ Additional, matrix view and card visuals put on report to give more detailed des
 * What teams were in bottom 20% of total activities (emails, chats and calls), for all closed cases?
 
 **On second report:** Named as Case Details Report; Visualizations created as requested by below items.
-Slicers on left panel working in cascade fashion.
+Slicers on left panel working in cascade fashion. On top 3 card visuals shows quantity of activities per case id grouped by activity type.
 
 * Case summary (matrix) visualization filters for team and case create date (Cascading). 
 * The case summary visualization will have the following columns: case IDs, and case details (created date, closed date, owner ID, and team). 
@@ -48,4 +50,6 @@ Slicers on left panel working in cascade fashion.
 	• For email – send date/time and incoming flag (as Yes/No)
 	• For chat – create date/time, end date/time and duration.
 
+PBIX file can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/power_bi_pbix
 
+PBIP file can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/power_bi_project_final
