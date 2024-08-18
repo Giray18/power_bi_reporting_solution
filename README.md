@@ -14,13 +14,22 @@ As a result for 4 database table 4 data profiling output xlsx files created and 
 ## SQL Task Solution;
 As per requirements of task, queries written to get data asked by below 2 inquiries. Solution created in 2 different methods first by using python method used on Data Profiling section (sql_profier module), second as native SQL queries.
 
+* Which teams had the shortest and the longest average duration of chats?
+* Which team had the lowest average response time between first incoming email and the next call. What was the average for this team?
+
 First solution is shown on jupyter notebook attachment can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/jupyter_notebooks.
 
 Second solution`s output files can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/t-sql_queries.
 
-* Which teams had the shortest and the longest average duration of chats?
-* Which team had the lowest average response time between first incoming email and the next call. What was the average for this team?
+## Excel Task Solution;
+As per task requirements there is a pivot table creation task based on source data. Since I created my source files on SSMS database, I used Excel`s native SSMS connector to gather data into excel. After ingestion applied pivot table steps to gather solution`s required data which can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/excel_task .
 
+## Power BI Task Solution;
+2 reports created based on requirements defined on PowerBI section of the task document. 
+On first report named as Team Activities; Visualitions created to reflect below inquiries answers.
+Weekday Slicer and Percent % Slicer bringing required data into visuals
 
+* What teams were in top 20% by number of daily taken calls 1) on weekdays and 2) on weekends?
+* What teams were in bottom 20% of total activities (emails, chats and calls), for all closed cases?
 
 
