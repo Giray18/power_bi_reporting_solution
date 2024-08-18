@@ -101,26 +101,26 @@
         },
         {
           "location": {
-            "x": 391.50908403654682,
-            "y": 193.787757361547
+            "x": 401.59960831381215,
+            "y": 268.90610475896739
           },
           "nodeIndex": "Case Details",
           "nodeLineageTag": "89100c6e-719b-4978-a9db-b46df121682c",
           "size": {
-            "height": 408.75342832163858,
+            "height": 314.57520173382795,
             "width": 234
           },
           "zIndex": 8
         },
         {
           "location": {
-            "x": 355.28752206546341,
+            "x": 413.58832900077482,
             "y": 0
           },
           "nodeIndex": "Team Call Summarized_",
           "nodeLineageTag": "27458dfc-e4e1-49c8-962e-dfee51cfd32a",
           "size": {
-            "height": 158.51673352679768,
+            "height": 195.51532254343761,
             "width": 234
           },
           "zIndex": 1
