@@ -26,10 +26,13 @@ As per task requirements there is a pivot table creation task based on source da
 
 ## Power BI Task Solution;
 2 reports created based on requirements defined on PowerBI section of the task document. 
-On first report named as Team Activities; Visualitions created to reflect below inquiries answers.
-Weekday Slicer and Percent % Slicer bringing required data into visuals
+**On first report:** Named as Team Activities; Visualitions created to reflect below inquiries answers.
+Weekday Slicer and Percent % Slicer bringing required data into tree map visuals.
+Additional, matrix view and card visuals put on report to give more detailed descriptive analysis of team performance.
 
 * What teams were in top 20% by number of daily taken calls 1) on weekdays and 2) on weekends?
 * What teams were in bottom 20% of total activities (emails, chats and calls), for all closed cases?
+
+* 
 
 
