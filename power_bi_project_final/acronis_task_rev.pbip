@@ -3,7 +3,7 @@
   "artifacts": [
     {
       "report": {
-        "path": "acronis_task.Report"
+        "path": "acronis_task_rev.Report"
       }
     }
   ],

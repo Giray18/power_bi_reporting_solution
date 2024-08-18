@@ -2,7 +2,7 @@
   "version": "4.0",
   "datasetReference": {
     "byPath": {
-      "path": "../acronis_task.SemanticModel"
+      "path": "../acronis_task_rev.SemanticModel"
     },
     "byConnection": null
   }
