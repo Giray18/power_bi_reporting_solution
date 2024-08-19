@@ -42,6 +42,24 @@ As per task requirements there is a pivot table creation task based on source da
 ## Power BI Task Solution;
 3 reports created based on requirements defined on PowerBI section of the task document. <br>
 
+As a general rule; For to bring more comprehensive subject based understanding to descriptive analysis done on PowerBI, additionnal visuals created with extra metrics asked on the task.
+
+Various methods used to show variety of capabilities while creating visuals like PowerQuery M language or DAX. Making calculations based on created table or column or using filter context by DAX formulation. Since dataset/model is in tiny size performance considerations are not taken into consideration in detailed way.
+
+Data model transformed in Power Query to apply some PowerBI best practices like Star schema and Date Table. Some summarized tables also used.
+
+Below PowerBI data Model can be seen;
+
+Case details table as fact table created by left joining dbo.test_calls,dbo.test_emails,dbo.test_LiveChatTranscript tables to dbo.test_cases table. On fact table case related activities gathered.
+
+Other case related details stayed on Case Info table which is created from dbo.test_cases table.
+
+There are some disconneted tables on the model to be used on slicers, parameters and some other visuals does not depend our source data.
+
+
+![picture alt](power_bi_pbix/data_model.JPG) 
+
+
 **Info page:** Gives brief info about reports and their visuals to users.
 
 **On first report:** Named as Team Activities; Visualitions created to reflect below inquiries answers.
