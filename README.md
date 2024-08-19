@@ -22,10 +22,13 @@ First solution is shown on jupyter notebook attachment can be found on https://g
 Second solution`s output files can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/t-sql_queries.
 
 ## Excel Task Solution;
-As per task requirements there is a pivot table creation task based on source data. Since I created my source files on SSMS database, I used Excel`s native SSMS connector to gather data into excel. After ingestion applied pivot table steps to gather solution`s required data which can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/excel_task .
+As per task requirements there is a pivot table creation task based on source data. Since I created my source files on SSMS database, I used Excel native SSMS connector to gather data into excel. After ingestion applied pivot table steps to gather solution`s required data which can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/excel_task .
 
 ## Power BI Task Solution;
-2 reports created based on requirements defined on PowerBI section of the task document. \n
+3 reports created based on requirements defined on PowerBI section of the task document. <br>
+
+**Info page:** Gives brief info about reports and their visuals to users.
+
 **On first report:** Named as Team Activities; Visualitions created to reflect below inquiries answers.
 Weekday Slicer and Percent % Slicer bringing required data into tree map visuals.
 Additional, matrix view and card visuals put on report to give more detailed descriptive analysis of team performance.
@@ -33,6 +36,20 @@ Additional, matrix view and card visuals put on report to give more detailed des
 * What teams were in top 20% by number of daily taken calls 1) on weekdays and 2) on weekends?
 * What teams were in bottom 20% of total activities (emails, chats and calls), for all closed cases?
 
-* 
+**On second report:** Named as Case Details Report; Visualizations created as requested by below items.
+Slicers on left panel working in cascade fashion. On top 3 card visuals shows quantity of activities per case id grouped by activity type.
 
+* Case summary (matrix) visualization filters for team and case create date (Cascading). 
+* The case summary visualization will have the following columns: case IDs, and case details (created date, closed date, owner ID, and team). 
+* Case detail visualization filter for “create date”. For calls this is the start date, for email it is the sent date, for chat it is the create date.
+* The case detail visualization will display case activity details for the cases displayed in the case summary. This means the case detail visualization will respect the team and date filter for the summary visualization. Furthermore if the report user selects a case (or cases) in the case summary visualization only these case activities will appear in the detail visualization.
+* The activity details to display are:
+	• Case ID
+	• Type of Activity (email, chat or call)
+	• For calls  - start date/time, end date/time and duration
+	• For email – send date/time and incoming flag (as Yes/No)
+	• For chat – create date/time, end date/time and duration.
 
+PBIX file can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/power_bi_pbix
+
+PBIP file can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/power_bi_project_final
