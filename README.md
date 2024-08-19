@@ -78,12 +78,12 @@ Slicers on left panel working in cascade fashion. On top 3 card visuals shows qu
 * The case summary visualization will have the following columns: case IDs, and case details (created date, closed date, owner ID, and team). 
 * Case detail visualization filter for “create date”. For calls this is the start date, for email it is the sent date, for chat it is the create date.
 * The case detail visualization will display case activity details for the cases displayed in the case summary. This means the case detail visualization will respect the team and date filter for the summary visualization. Furthermore if the report user selects a case (or cases) in the case summary visualization only these case activities will appear in the detail visualization.
-* The activity details to display are:
-	• Case ID
-	• Type of Activity (email, chat or call)
-	• For calls  - start date/time, end date/time and duration
-	• For email – send date/time and incoming flag (as Yes/No)
-	• For chat – create date/time, end date/time and duration.
+* The activity details to display are: <br>
+	• Case ID <br>
+	• Type of Activity (email, chat or call) <br>
+	• For calls  - start date/time, end date/time and duration <br>
+	• For email – send date/time and incoming flag (as Yes/No) <br>
+	• For chat – create date/time, end date/time and duration.<br>
 
 PBIX file can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/power_bi_pbix
 
