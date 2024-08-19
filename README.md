@@ -65,6 +65,7 @@ Report details are as below;
 
 **On first report:** Named as Team Activities; Visualitions created to reflect below inquiries answers.
 Weekday Slicer and Percent % Slicer bringing required data into tree map visuals.
+Percent % slicer both work for top %20 and bottom % 20 calculations.
 Additional, matrix view and card visuals put on report to give more detailed descriptive analysis of team performance.
 
 * What teams were in top 20% by number of daily taken calls 1) on weekdays and 2) on weekends?
@@ -73,7 +74,7 @@ Additional, matrix view and card visuals put on report to give more detailed des
 **On second report:** Named as Case Details Report; Visualizations created as requested by below items.
 Slicers on left panel working in cascade fashion. On top 3 card visuals shows quantity of activities per case id grouped by activity type.
 
-* Case summary (matrix) visualization filters for team and case create date (Cascading). 
+* Case summary visualization filters for team and case create date. 
 * The case summary visualization will have the following columns: case IDs, and case details (created date, closed date, owner ID, and team). 
 * Case detail visualization filter for “create date”. For calls this is the start date, for email it is the sent date, for chat it is the create date.
 * The case detail visualization will display case activity details for the cases displayed in the case summary. This means the case detail visualization will respect the team and date filter for the summary visualization. Furthermore if the report user selects a case (or cases) in the case summary visualization only these case activities will appear in the detail visualization.
