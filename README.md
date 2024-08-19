@@ -59,7 +59,7 @@ There are some disconneted tables on the model to be used on slicers, parameters
 
 ![picture alt](power_bi_pbix/data_model.JPG) 
 
-Report details are as below;
+**Report details are as below;**
 
 **Info page:** Gives brief info about reports and their visuals to users.
 
