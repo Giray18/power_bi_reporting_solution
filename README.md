@@ -37,7 +37,7 @@ First solution is shown on jupyter notebook attachment can be found on https://g
 Second solution`s output files can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/t-sql_queries .
 
 ## Excel Task Solution;
-As per task requirements there is a pivot table creation task based on source data. Since I created my source files on SSMS database, I used Excel native SSMS connector to gather data into excel. After ingestion applied pivot table steps to gather solution`s required data which can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/excel_task .
+As per task requirements there is a pivot table creation task based on source data. Since I created my source files on SSMS database, I used Excel native SSMS connector to gather data into excel. After ingestion, I applied pivot table steps to gather solution`s required data which can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/excel_task .
 
 ## Power BI Task Solution;
 3 reports created based on requirements defined on PowerBI section of the task document. <br>
