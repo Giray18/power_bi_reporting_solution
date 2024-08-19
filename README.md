@@ -1,28 +1,43 @@
 # PowerBI reporting solution
-This repo has scripts, PowerBI files, excel files related to a task solution and data profiling operations, IPYNB notebooks related to SQL task.
+This repo has scripts, PowerBI files, excel files related for a task solution and data profiling operations, IPYNB notebooks related to SQL task.
 Overall, task solution has seperated into 4 section as defined below,
 
 ## Data Profiling;
-First, shared scripts used on SSMS to create tables that will be used as source database for solution. After running shared scripts It is seen that there are 4 tables loaded with data.
+First, shared scripts by task sender used on SSMS to create tables that will be used as source database for solution. After running shared scripts It is seen that there are 4 tables loaded with data as
 
-For to showcase python capabilities, data profiling made by custom made python modules (by myself dat and sql_profiler module). Source code related to modules can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/src . 
-These modules has run python data profiling methods and saves output of profiled data into a date partitioned auto created folder that can be reached by location https://github.com/Giray18/power_bi_reporting_solution/tree/main/data_profiling_results/2024-08-16 . 
+a)dbo.test_cases <br>
+b)dbo.test_Emails <br>
+c)dbo.test_calls <br>
+d)dbo.test_LiveChatTranscript <br>
 
-As a result for 4 database table 4 data profiling output xlsx files created and based on the initial check It has been understood that there is 1 dim (test_cases) and 3 fact tables (test_Emails, test_LiveChatTranscript, test_calls) being used on database. 
+For to showcase python capabilities, data profiling made by custom made python modules (by myself dat and sql_profiler module). Source code related to modules can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/src .
+
+These modules has run python based data profiling methods and saves output of profiled data into a date partitioned auto created folder that can be reached by location https://github.com/Giray18/power_bi_reporting_solution/tree/main/data_profiling_results/2024-08-16 in excel format. 
+
+As a result for 4 database table 4 data profiling output xlsx files created and based on the initial check It has been understood that there is 1 dim (test_cases) and 3 fact tables (test_Emails, test_LiveChatTranscript, test_calls) being used on database. Below size of tables can be seen with detected unique value holding columns
+
+a)dbo.test_cases // 1579 rows * 6 columns - (caseid - Id) <br>
+b)dbo.test_Emails // 13335 rows * 4 columns - (Id) <br>
+c)dbo.test_calls // 17 rows * 4 columns - (id, started_time, ended_time) <br>
+d)dbo.test_LiveChatTranscript // 567 rows * 4 columns - (Id) <br>
+
+Below diagram created on SSMS and FK constraints established according to caseid column between tables.
+
+![picture alt](data_profiling_results/db_diagram.JPG) 
 
 
 ## SQL Task Solution;
-As per requirements of task, queries written to get data asked by below 2 inquiries. Solution created in 2 different methods first by using python method used on Data Profiling section (sql_profier module), second as native SQL queries.
+As per requirements of task, queries written to get data asked by below 2 inquiries. Solution created in 2 different methods first by using python method used on Data Profiling section (sql_profiler module), second as native T-SQL queries.
 
 * Which teams had the shortest and the longest average duration of chats?
 * Which team had the lowest average response time between first incoming email and the next call. What was the average for this team?
 
-First solution is shown on jupyter notebook attachment can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/jupyter_notebooks.
+First solution is shown on jupyter notebook attachment can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/jupyter_notebooks .
 
-Second solution`s output files can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/t-sql_queries.
+Second solution`s output files can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/t-sql_queries .
 
 ## Excel Task Solution;
-As per task requirements there is a pivot table creation task based on source data. Since I created my source files on SSMS database, I used Excel native SSMS connector to gather data into excel. After ingestion applied pivot table steps to gather solution`s required data which can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/excel_task .
+As per task requirements there is a pivot table creation task based on source data. Since I created my source files on SSMS database, I used Excel native SSMS connector to gather data into excel. After ingestion, I applied pivot table steps to gather solution`s required data which can be found on https://github.com/Giray18/power_bi_reporting_solution/tree/main/excel_task .
 
 ## Power BI Task Solution;
 3 reports created based on requirements defined on PowerBI section of the task document. <br>
