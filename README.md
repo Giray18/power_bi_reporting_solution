@@ -46,7 +46,7 @@ As a general rule; For to bring more comprehensive subject based understanding t
 
 Various methods used to show variety of capabilities while creating visuals like PowerQuery M language or DAX. Making calculations based on created table or column or using filter context by DAX formulation. Since dataset/model is in tiny size performance considerations are not taken into consideration in detailed way.
 
-Data model transformed in Power Query to apply some PowerBI best practices like Star schema and Date Table. Some summarized tables also used.
+Data model transformed in Power Query to apply some PowerBI best practices like Date Table. Some summarized tables also used.
 
 Below PowerBI data Model can be seen;
 
