@@ -72,7 +72,8 @@ Additional, matrix view and card visuals put on report to give more detailed des
 * What teams were in bottom 20% of total activities (emails, chats and calls), for all closed cases?
 
 **On second report:** Named as Case Details Report; Visualizations created as requested by below items.
-Slicers on left panel working in cascade fashion. On top 3 card visuals shows quantity of activities per case id grouped by activity type.
+Slicers on left panel working in cascade fashion and Case Id Slicer give capability of filtering visuals in single Case Id granularity. 
+On top 3 card visuals shows quantity of activities per case id grouped by activity type.
 
 * Case summary visualization filters for team and case create date. 
 * The case summary visualization will have the following columns: case IDs, and case details (created date, closed date, owner ID, and team). 
